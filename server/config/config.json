@@ -1,0 +1,22 @@
+{
+    "development": {
+        "MYSQL_DB_DATABASE_NAME": "tsdashboard",
+        "MYSQL_DB_TABLE_NAME": "school",
+        "MYSQL_DB_TEACHER_COL_NAME": "TeacherEmail",
+        "MYSQL_DB_STUDENT_COL_NAME": "StudentEmails",
+        "MYSQL_DB_HOSTNAME": "localhost",
+        "MYSQL_DB_USERNAME": "root",
+        "MYSQL_DB_PASSWORD": "",
+        "EXPRESS_PORT": 7000
+    },
+    "test": {
+        "MYSQL_DB_DATABASE_NAME": "tsdashboard",
+        "MYSQL_DB_TABLE_NAME": "school",
+        "MYSQL_DB_TEACHER_COL_NAME": "TeacherEmail",
+        "MYSQL_DB_STUDENT_COL_NAME": "StudentEmails",
+        "MYSQL_DB_HOSTNAME": "localhost",
+        "MYSQL_DB_USERNAME": "root",
+        "MYSQL_DB_PASSWORD": "",
+        "EXPRESS_PORT": 8000
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "node-ts-api",
+  "version": "1.0.0",
+  "scripts": {
+    "dev:start": "node server/server.js",
+    "dev:watch": "nodemon server/server.js",
+    "test": "export NODE_ENV=test && mocha server/**/*.test.js",
+    "test:watch": "nodemon --exec 'npm test'"
+  },
+  "author": "Karthekeyan <imkarthekeyan@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "express": "4.16.3",
+    "lodash": "4.17.10",
+    "log4js": "2.8.0",
+    "mysql": "2.15.0",
+    "promise-mysql": "3.2.1",
+    "util": "0.10.4"
+  },
+  "devDependencies": {
+    "assert": "1.4.1",
+    "expect": "23.1.0",
+    "mocha": "5.2.0",
+    "nodemon": "1.17.5",
+    "supertest": "3.1.0"
+  }
+}
