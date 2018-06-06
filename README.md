@@ -55,7 +55,7 @@ URL: https://www.getpostman.com/collections/b10e3dcde5f835623e2a
 | --- | --- |
 | Method | POST |
 | Endpoint | /api/register |
-| Body | JSON: {{ "teacher": "teachermartin@gmail.com", "students": ["studentkent@gmail.com", "studentyam@yahoo.com"] }} |
+| Body | JSON: { "teacher": "teachermartin@gmail.com", "students": ["studentkent@gmail.com", "studentyam@yahoo.com"] } |
 | Response |  Status: 204 No Content |
 
 | Type | Description |
