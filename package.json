@@ -2,6 +2,7 @@
   "name": "node-ts-api",
   "version": "1.0.0",
   "scripts": {
+    "prod:start": "export NODE_ENV=production && node server/server.js",
     "dev:start": "node server/server.js",
     "dev:watch": "nodemon server/server.js",
     "test": "export NODE_ENV=test && mocha server/**/*.test.js",

@@ -1,4 +1,14 @@
 {
+    "production": {
+        "MYSQL_DB_DATABASE_NAME": "tsdashboard",
+        "MYSQL_DB_TABLE_NAME": "school",
+        "MYSQL_DB_TEACHER_COL_NAME": "TeacherEmail",
+        "MYSQL_DB_STUDENT_COL_NAME": "StudentEmails",
+        "MYSQL_DB_HOSTNAME": "node-ts.cka14oska139.us-east-1.rds.amazonaws.com",
+        "MYSQL_DB_USERNAME": "root",
+        "MYSQL_DB_PASSWORD": "11111111",
+        "EXPRESS_PORT": 5555
+    },
     "development": {
         "MYSQL_DB_DATABASE_NAME": "tsdashboard",
         "MYSQL_DB_TABLE_NAME": "school",
