@@ -19,11 +19,19 @@ Endpoint: node-ts.cka14oska139.us-east-1.rds.amazonaws.com </br>
 Port: 3306 </br>
 Publicly Accessible: Yes
 
+#### MySQL DB Schema Design:
+* Primary Key - Email ID (Teacher)
+* Table Name - SCHOOL contains (Teacher Email ID & Student Email ID(s) - [])
+
 #### MySQL Schema Store:
 ![MySQL Schema](https://s3.amazonaws.com/bucket-storage-box/mysql-schema.png)
 
 #### MySQL Schema Storage:
 ![MySQL Storage](https://s3.amazonaws.com/bucket-storage-box/mysql-storage.png)
+
+## Assumptions: (Based on User Stories)
+1. Every second POST request from the same teacher will be consider as appending the new student emailID(s) with the existing students.
+3. Suspend from the class needed the corresponding teacher email address. So, included in the POST request body.
 
 ## Demo API Routes:
 
