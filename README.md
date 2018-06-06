@@ -19,6 +19,9 @@ Endpoint: node-ts.cka14oska139.us-east-1.rds.amazonaws.com </br>
 Port: 3306 </br>
 Publicly Accessible: Yes
 
+![MySQL Schema](https://s3.amazonaws.com/bucket-storage-box/mysql-schema.png)
+![MySQL Storage](https://s3.amazonaws.com/bucket-storage-box/mysql-storage.png)
+
 ## Demo API Routes:
 
 | Request Method | URL Endpoint |
