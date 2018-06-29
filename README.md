@@ -58,11 +58,11 @@ Publicly Accessible: Yes
 
 | Request Method | URL Endpoint |
 | --- | --- |
-| POST | http://18.233.166.235:5555/api/register |
-| GET | http://18.233.166.235:5555/api/commonstudents?teacher=jerry@teacher.com |
-| GET | http://18.233.166.235:5555/api/commonstudents?teacher=jerry@teacher.com&teacher=barry@teacher.com |
-| POST | http://18.233.166.235:5555/api/suspend |
-| POST | http://18.233.166.235:5555/api/retrievefornotifications |
+| POST | http://18.233.166.235:5005/api/register |
+| GET | http://18.233.166.235:5005/api/commonstudents?teacher=jerry@teacher.com |
+| GET | http://18.233.166.235:5005/api/commonstudents?teacher=jerry@teacher.com&teacher=barry@teacher.com |
+| POST | http://18.233.166.235:5005/api/suspend |
+| POST | http://18.233.166.235:5005/api/retrievefornotifications |
 
 ## Postman Collection:
 
