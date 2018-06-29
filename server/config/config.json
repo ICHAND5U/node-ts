@@ -13,7 +13,7 @@
         "MYSQL_DB_COLUMN_STUDENT_EMAIL": "student_email",
         "MYSQL_DB_COLUMN_IS_SUSPENDED": "is_suspended",
         "IS_SUSPENDED_DEFAULT_VALUE": 0,
-        "EXPRESS_PORT": 5555
+        "EXPRESS_PORT": 5005
     },
     "development": {
         "MYSQL_DB_HOSTNAME": "localhost",
@@ -29,7 +29,7 @@
         "MYSQL_DB_COLUMN_STUDENT_EMAIL": "student_email",
         "MYSQL_DB_COLUMN_IS_SUSPENDED": "is_suspended",
         "IS_SUSPENDED_DEFAULT_VALUE": 0,
-        "EXPRESS_PORT": 7000
+        "EXPRESS_PORT": 7007
     },
     "test": {
         "MYSQL_DB_HOSTNAME": "localhost",
@@ -45,6 +45,6 @@
         "MYSQL_DB_COLUMN_STUDENT_EMAIL": "student_email",
         "MYSQL_DB_COLUMN_IS_SUSPENDED": "is_suspended",
         "IS_SUSPENDED_DEFAULT_VALUE": 0,
-        "EXPRESS_PORT": 8000
+        "EXPRESS_PORT": 8008
     }
 }
